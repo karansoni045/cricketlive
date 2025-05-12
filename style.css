@@ -1,0 +1,33 @@
+/* Basic Styles for the Live Streaming Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #2d2d2d;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  max-width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+video {
+  border-radius: 10px;
+  max-width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

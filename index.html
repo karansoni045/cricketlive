@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Streaming Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to Live Stream</h1>
+    
+    <div class="video-container">
+      <video id="live-stream" width="100%" height="auto" controls autoplay>
+        <source src="http://your-vps-ip/live/stream.m3u8" type="application/x-mpegURL">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <p>Enjoy the live match!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
